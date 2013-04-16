@@ -73,10 +73,6 @@ class MethodsCheck(unittest.TestCase):
             self.assertEqual(zustatek_pred_vlozenim - castka,
                              self.tucny_ucet.ekvivalentni_zustatek())
 
-# Nevim jak otestovat metodu Vypis
-#    def test_Vypis(self):
-#        self.ucet.vypis()
-
     def test_EkvivalentniZustatek(self):
         # Test of ekvivalentni_zustatek() method. Method should return
         # nonnegative value.
